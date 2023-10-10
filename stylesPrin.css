@@ -1,0 +1,299 @@
+.logo img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+}
+.rectangulo{
+    background-color: #30477dd3; 
+    width: 100%; 
+    height: 10px; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: 999; 
+}
+
+h1{
+    color: #1d1d22;
+    text-align: center;
+    font-size: 40px;
+}
+
+p.intro{
+    color: #4e5159;
+    font-style: italic; 
+    text-align: center;
+}
+
+img.portada{
+    width: 100%;
+    height:  auto; 
+    background-size: cover;
+    background-position: center;
+    border: 4px solid #ffdd00;    
+}
+
+.descripcion {
+    text-align: center; 
+    margin: 90px; 
+    margin-bottom: 60px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.link{
+    color: #393e4a;
+    font-style: italic; 
+    border-bottom: 1px dotted #000; 
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+}
+
+#indice {
+    text-align: center; 
+    background-color: #293a4b; 
+    color: white; 
+    padding: 20px; 
+    border-radius: 3px; 
+    width: 30%; 
+    margin: 0 auto; 
+    font-size: 24px;
+}
+
+ol {
+    list-style-type: decimal; 
+    padding: 0; 
+    text-align: center; 
+    line-height: 1.6; 
+}
+
+.pIndice {
+    color: #24314e; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+    display: block; 
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.textoPAloj{
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+h2{
+    font-weight: bold; 
+    font-size: 27px;
+    text-align: center;
+    color: #121212;
+}
+
+article{
+    background-color: #b7ccf266;
+    font-family: Arial;
+    margin-top: 20px ;
+    margin-left: 15px ;
+    margin-right: 15px ;
+    padding:  0;
+    border: 1px solid black;
+    width:  auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.imagenPrin {
+    background-size: cover; 
+    background-repeat: no-repeat;
+    width: 50vw; 
+    height:  auto ; 
+    border: 4px solid #ffdd00;   
+}
+
+.imagenMapa {
+    background-size: cover; 
+    background-repeat: no-repeat;
+    width: 80vw; 
+    height: 90vh;
+    padding-bottom: 10px;
+}
+
+.tablaAloj {
+    width: 100%;
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; 
+    margin: 0;
+}
+
+.imagen {
+    width: 500px; 
+    position: relative;
+    text-align: center;
+    margin: 30px;
+    border: 4px solid #ffdd00; 
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.texto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(60, 70, 87, 0.7); 
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen:hover .texto {
+    opacity: 1;
+}
+
+.texto a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #3d6ea0;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px; 
+}
+
+
+.links{
+    color: #383737;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.imagAct{
+    width: 300px; 
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 60px;
+    border: 4px solid #ffdd00; 
+}
+
+.textoAct{
+    font-size: 16px;
+}
+
+.lineasPrecio{
+    font-size: 9px;
+    font-style: normal;
+}
+
+.class img{
+    height: 100px;
+    width: 100px;
+    top: 10px; 
+    left: 10px; 
+    
+}
+
+body{
+    background-color: #ffffff;
+    font-family: Arial, sans-serif ;
+    margin-top:  auto;
+    margin-left:  auto;
+    padding:  10px;
+    
+}
+.titulosAloj{
+    color: #112e5b ;   
+}
+.subTAloj{
+    font-style: normal; 
+    font-size: 15px;
+    text-align: center;
+    color: #43454d;
+}
+.textApart{
+    font-style: normal; 
+    font-size: 15px;
+    text-align: left;
+    color: #303137;
+}
+.infoApart{
+    font-style: italic; 
+    font-size: 13px;
+    text-align: left;
+    color: #464853;
+}
+
+
+.titHoteles{
+    font-weight: bold; 
+    font-size: 20px;
+    text-align: left;
+    color: #171827;
+
+}
+.textHoteles{
+    font-style: normal; 
+    font-size: 15px;
+    text-align: left;
+    color: #303137;
+
+}
+.infoHoteles{
+    font-style: italic; 
+    font-size: 13px;
+    text-align: left;
+    color: #464853;
+}
+
+.precio{
+    font-weight: bold;
+}
+
+.columAct, .columInfo{
+    font-style: italic;
+}
+
+.volver {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    color: #ffffff;
+    background-color: #30477d;
+    border: none;
+    padding: 10px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none; 
+}
+
+.rectangulo_final {
+    background-color:  #30477dd3; 
+    width: 100%; 
+    height: 5px; 
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 999; 
+}
+
+
+
+

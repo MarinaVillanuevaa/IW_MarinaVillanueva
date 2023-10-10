@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--Marina Villanueva Entrega 1-->
+<html lang="es">
+    <head>
+        <title>Reservas</title>
+        <link rel="stylesheet" href="stylesCuest.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header>
+            <div class="rectangulo"></div>
+            <h1>Reserva de viaje</h1>
+            <p class="intro">Rellena el siguiente formulario para realizar la reserva de tu viaje a Marina dor correctamente.</p>
+        </header>
+
+        <div class="logo">
+            <img src="Imagenes/logoMarinaDor.png" alt="Logo de la empresa">
+        </div>
+            <form action="CompraFin.html" method="get">
+            <fieldset>
+                <legend class="datosU"> Datos del usuario</legend>
+                
+                    Nombre: <input type="text"> <br><br>
+                    Apellidos: <input type="text"> <br><br>
+                    DNI: <input type="text"> <br><br>
+                    <label for="hombre">Hombre</label>
+                    <input type="radio" name="sexo" id="hombre" value="h">
+                    <br>
+                    <label for="mujer">Mujer</label>
+                    <input type="radio" name="sexo" id="mujer" value="m">
+                    <br>
+                    <label for="otro">Otro</label>
+                    <input type="radio" name="sexo" id="otro" value="o">
+                    <br><br>
+
+                    <p>¿Es la primera vez que visitas Marina dor?</p>
+                    <label>
+                        <input type="radio" name="experiencia" value="nuevo"> Si, he estado en Marina dor
+                    </label>
+                    <label>
+                        <input type="radio" name="experiencia" value="no_nuevo"> No, es la primera vez
+                    </label>
+                    <br>
+                    <br>
+                    Email <input type="email"> <br><br>
+                    Contraseña: <input type="password"> <br><br>
+                    Teléfono: <input type="text"><br>
+                    
+            </fieldset> 
+            <br>
+            <fieldset>
+                <legend class="datosR"> Datos de la reserva</legend>
+                
+                <label for="id-paquete"> Tipo de alojamiento</label>
+                    <select id="id-paquete" name="paquete">
+                        <option selected> Hotel  </option>
+                        <option> Apartamento </option>
+                        <option> Sin alojamiento </option>
+                    
+                    </select>
+                    
+                <p>Selecciona la fecha de entrada y salida: </p>
+                <label>
+                    <input type ="date" >
+                </label>
+                <label>
+                    <input type ="date">
+                </label> 
+            <p>Alguna otra expecificación a tener en cuenta: </p>
+            <textarea name="textarea" rows="10" cols="50">Comentarios</textarea>
+
+            </fieldset>
+
+            
+                <br>
+                <input type="checkbox" name="condiciones" value=" Condiciones"> Acepto las condiciones<br> <br>
+                <input type="checkbox" name="politica empresa" value="Politica de la empresa"> Acepto la politica de la empresa<br> <br>
+                
+                <input class="enviar" type="submit" name ="fin" value="Finalizar">  
+            </form>
+
+            <div class="rectangulo_final"></div>
+    </body>
+
+</html>
